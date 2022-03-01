@@ -1,0 +1,15 @@
+.table {
+    width: 100%;
+    background-color: white;
+}
+.table tr:nth-child(2n),
+.table > thead:first-child {
+    background-color: lightgray;
+}
+.table > tbody > tr > td {
+    text-align: center;
+}
+.table tr {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}

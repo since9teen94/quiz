@@ -1,0 +1,35 @@
+.pagesDiv {
+  margin: 1rem;
+  padding: 1rem;
+}
+.pages {
+  margin: 0 auto;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 50%;
+}
+.pages button {
+  padding: 0;
+}
+.pages p {
+  margin: 1rem;
+  text-align: center;
+}
+.selectDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.selectDiv input {
+  text-align: center;
+}
+.selectDiv {
+  margin: 1rem 0;
+}
+.selectDiv > select {
+  margin: 0 0.3rem;
+}
+.selectDiv > label:nth-child(n + 2) {
+  margin-left: 1rem;
+}
